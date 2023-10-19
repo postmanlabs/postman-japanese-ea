@@ -4,7 +4,7 @@ body:
 - type: markdown
   attributes:
     value: '> **Note**: This form is for reporting issues that only exist in the Japanese translation of Postman. Before reporting an issue here, you must confirm that the problem does not exist in Postman in English. For problems that also exist in English, please report it via the usual Postman support channels.'
--- type: textarea
+- type: textarea
   attributes:
     label: Describe the Issue
     description: A high-level summary or description of the issue

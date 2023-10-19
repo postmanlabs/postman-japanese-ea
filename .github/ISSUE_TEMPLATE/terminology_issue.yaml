@@ -1,6 +1,10 @@
 name: Terminology issue
-description: Report an issue with the Postman Japanese terminology
+description: Report an issue with the Japanese terminology in the Postman app
+title: "A brief title for your issue"
 body:
+- type: markdown
+  attributes:
+    value: '> **Note**: This form is for reporting linguistic terminology issues in the Japanese translation of Postman. For Postman functionality issues or problems that also exist in English, please report issues via the usual Postman support channels.'
 - type: textarea
   attributes:
     label: Describe the Issue
