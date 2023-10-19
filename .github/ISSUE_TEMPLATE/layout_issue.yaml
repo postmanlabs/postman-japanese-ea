@@ -1,0 +1,51 @@
+name: Layout or functionality issue
+description: Report an issue with the Postman user interface layout or functionality in Japanese
+body:
+- type: markdown
+  attributes:
+    value: '> **Note**: This form is for reporting issues that only exist in the Japanese translation of Postman. Before reporting an issue here, you must confirm that the problem does not exist in Postman in English. For problems that also exist in English, please report it via the usual Postman support channels.'
+-- type: textarea
+  attributes:
+    label: Describe the Issue
+    description: A high-level summary or description of the issue
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: A list of steps that can be followed to recreate the issue.
+    placeholder: |
+      1. Open a new request tab
+      2. Select the Body tab
+      3. Select the `raw` type 
+      4. See the Japanese text overlap the frame
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Screenshots or Videos
+    description: | 
+      Please include screenshots or a short video showing where the badly translated wording appears in the Postman app
+      Ensure that the screenshots/videos show the full screen of the Postman app and do not contain any sensitive information such as API keys or Access Tokens. 
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: '> **Tip**: You can attach images and recordings to textareas by dragging in the files. More visual examples will help us to understand your concern.'
+- type: dropdown
+  attributes:
+    label: Postman Platform
+    description: In which Postman platform do you see this issue.
+    options:
+      - Postman App
+      - Postman Web
+      - Both
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional comments or context?
+    description: |
+      Please add any other comments or contextual information about the problem, that might be relevant and help explain the issue with the translation.
+  validations:
+    required: false

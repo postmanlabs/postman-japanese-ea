@@ -1,0 +1,54 @@
+name: Terminology issue
+description: Report an issue with the Postman Japanese terminology
+body:
+- type: textarea
+  attributes:
+    label: Describe the Issue
+    description: A high-level summary or description of the terminology issue, and how to access it in the Postman app
+  validations:
+    required: true
+- type: input
+  id: currentterminology
+  attributes:
+    label: Current terminology
+    description: How is the terminology phrased in Postman now?
+    placeholder: ex. 新しいコレクション
+  validations:
+    required: true
+- type: input
+  id: proposedterminology
+  attributes:
+    label: Proposed terminology
+    description: How do you propose that the terminology be phrased?
+    placeholder: ex. 新規コレクション
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Screenshots or Videos
+    description: | 
+      Please include screenshots or a short video showing where the badly translated wording appears in the Postman app
+      Ensure that the screenshots/videos show the full screen of the Postman app and do not contain any sensitive information such as API keys or Access Tokens. 
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: '> **Tip**: You can attach images and recordings to textareas by dragging in the files. More visual examples will help us to understand your concern.'
+- type: dropdown
+  attributes:
+    label: Postman Platform
+    description: In which Postman platform do you see this issue.
+    options:
+      - Postman App
+      - Postman Web
+      - Both
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional comments or context?
+    description: |
+      Please add any other comments or contextual information about the problem, that might be relevant and help explain the issue with the translation.
+  validations:
+    required: false
+
