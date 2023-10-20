@@ -1,0 +1,22 @@
+blank_issues_enabled: false
+contact_links:
+  # - name: Postman Documentation Issues
+  - name: Postman ドキュメントの問題 
+    url: https://github.com/postmanlabs/postman-docs/issues/new
+    # about: Please file all documentation related issues here
+    about: ドキュメント関連の問題は、こちらに登録してください。 
+  # - name: Postman Learning Center
+  - name: Postman ラーニング センター
+    url: https://learning.postman.com
+  # about: Learn how to use Postman in our Learning Center 
+    about: ラーニング センターで Postman の利用方法を学べます。
+  # - name: Postman Community Forum
+  - name: Postman コミュニティ フォーラム
+    url: https://community.postman.com
+    # about: Get support and connect to the community on our forum
+    about: フォーラム上でサポートを受けたり、コミュティとつながったりできます。
+  # - name: Postman Support Team
+  - name: Postman サポート チーム
+    url: https://support.postman.com/hc/en-us/requests/new/
+  #  about: Open a new request with the Postman Support Team not related to the Japanese translation Early Access program
+    about: 日本語版 Postman 早期アクセス プログラム関連外のことについて、Postman サポート チームに新規リクエストを登録できます。

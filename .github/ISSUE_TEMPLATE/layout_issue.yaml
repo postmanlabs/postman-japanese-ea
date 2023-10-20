@@ -1,51 +1,97 @@
-name: Layout or functionality issue
-description: Report an issue with the Postman user interface layout or functionality in Japanese
+# name: Layout or functionality issue
+name: レイアウト／機能の問題
+# description: Report an issue with the Postman user interface layout or functionality in Japanese
+description: Postman ユーザー インターフェイス レイアウト、または日本語版機能の問題を報告する
+# title: "A brief title for your issue"
+title: "問題のタイトル"
 body:
 - type: markdown
   attributes:
-    value: '> **Note**: This form is for reporting issues that only exist in the Japanese translation of Postman. Before reporting an issue here, you must confirm that the problem does not exist in Postman in English. For problems that also exist in English, please report it via the usual Postman support channels.'
+    # value: '> **Note**: This form is for reporting issues that only exist in the Japanese translation of Postman. Before reporting an issue here, you must confirm that the problem does not exist in Postman in English. For problems that also exist in English, please report it via the usual Postman support channels.'
+    value: '> **メモ**: このフォームは、日本語版 Postman で発生した問題を報告するためのものです。英語版 Postman 環境で問題が発生しない事を確認してから、問題を報告してください。問題が英語版でも発生する場合は、通常の Postman サポートチャンネルで報告してください。'
 - type: textarea
   attributes:
-    label: Describe the Issue
-    description: A high-level summary or description of the issue
+    # label: Describe the Issue
+    label: 問題の詳細
+    # description: A high-level summary or description of the issue
+    description: 問題の要約、または説明
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Steps To Reproduce
-    description: A list of steps that can be followed to recreate the issue.
+    # label: Steps To Reproduce
+    label: 再現ステップ
+    # description: A list of steps that can be followed to recreate the issue.
+    description: 問題を再現するステップ
+    # placeholder: |
+    #   1. Open a new request tab
+    #   2. Select the Body tab
+    #   3. Select the `raw` type
+    #   4. See the Japanese text overlap the frame 
     placeholder: |
-      1. Open a new request tab
-      2. Select the Body tab
-      3. Select the `raw` type 
-      4. See the Japanese text overlap the frame
+      1. [新規リクエスト] タブを開く
+      2. [ボディ] タブを選択
+      3. [未加工] タブを選択
+      4. フレームに日本語テキストが重なっていることを確認
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Screenshots or Videos
+    # label: Screenshots or Videos
+    label: スクリーンショット／動画
+    # description: |
+    #  Please include screenshots or a short video showing where the badly translated wording appears in the Postman app
+    #  Ensure that the screenshots/videos show the full screen of the Postman app and do not contain any sensitive information such as API keys or Access Tokens.
     description: | 
-      Please include screenshots or a short video showing where the badly translated wording appears in the Postman app
-      Ensure that the screenshots/videos show the full screen of the Postman app and do not contain any sensitive information such as API keys or Access Tokens. 
+      日本語版 Postman アプリケーションの問題箇所が表示されたスクリーンショットか、短い動画を登録してください。
+      スクリーンショット／動画は、API キーやアクセス トークンなどの機密情報が含まれていないことを確認し、Postman アプリケーション画面全体をキャプチャーしてください。 
   validations:
     required: true
 - type: markdown
   attributes:
-    value: '> **Tip**: You can attach images and recordings to textareas by dragging in the files. More visual examples will help us to understand your concern.'
+    # value: '> **Tip**: You can attach images and recordings to textareas by dragging in the files. More visual examples will help us to understand your concern.'
+    value: '> **ヒント**: 画像や動画ファイルをテキストエリアにドラッグして、ファイルを添付できます。視覚的な例が多くあるほど、懸念箇所を理解しやすくなります。'
 - type: dropdown
   attributes:
-    label: Postman Platform
-    description: In which Postman platform do you see this issue.
+    # label: Postman Platform
+    label: Postman プラットフォーム
+    # description: In which Postman platform do you see this issue.
+    description: 問題が発生する Postman プラットフォームを選択してください。
+    # options: 
+    #  - Postman App
+    #  - Postman Web
+    #  - Both
     options:
-      - Postman App
-      - Postman Web
-      - Both
+      - Postman デスクトップアプリ
+      - Postman ウェブアプリ
+      - 両方
+  validations:
+    required: true
+- type: input
+  attributes:
+    # label: Operating System
+    label: オペレーティング システム
+    # description: Which OS are you using?
+    description: 利用中の OS を入力してください。
+    placeholder: "Windows/macOS/Linux"
+  validations:
+    required: true
+- type: input
+  attributes:
+    # label: Postman Version
+    label: Postman バージョン
+    # description: Which version of the platform are you using? This can be found in 'General Settings > Settings > About'.
+    description: 利用中のプラットフォームのバージョンを入力してください。バージョンを確認するには、[⚙ 設定] > [設定] > [概要]をクリックします。
+    placeholder: "10.12.0"
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Additional comments or context?
+    # label: Additional comments or context?
+    label: その他のコメントやコンテキスト
+    # description: |
+    #   Please add any other comments or contextual information about the problem, that might be relevant and help explain the issue with the translation.
     description: |
-      Please add any other comments or contextual information about the problem, that might be relevant and help explain the issue with the translation.
+      問題の理解をより深めるために、適切なコメントやコンテキスト情報を入力してください。
   validations:
     required: false

@@ -1,58 +1,100 @@
-name: Terminology issue
-description: Report an issue with the Japanese terminology in the Postman app
-title: "A brief title for your issue"
+# name: Terminology issue
+name: 使用用語の問題
+# description: Report an issue with the Japanese terminology in the Postman app
+description: 日本語版 Postman アプリケーションの用語の問題を報告する。
+# title: "A brief title for your issue"
+title: "問題のタイトル"
 body:
 - type: markdown
   attributes:
-    value: '> **Note**: This form is for reporting linguistic terminology issues in the Japanese translation of Postman. For Postman functionality issues or problems that also exist in English, please report issues via the usual Postman support channels.'
+    # value: '> **Note**: This form is for reporting linguistic terminology issues in the Japanese translation of Postman. For Postman functionality issues or problems that also exist in English, please report issues via the usual Postman support channels.'
+    value: '> **メモ**: このフォームは、日本語版 Postman の翻訳や用語の問題を報告するためのものです。英語版 Postman 環境でも発生する機能的な問題については、通常の Postman サポートチャンネルで報告してください。'
 - type: textarea
   attributes:
-    label: Describe the Issue
-    description: A high-level summary or description of the terminology issue, and how to access it in the Postman app
+    # label: Describe the Issue
+    label: 問題の詳細
+    # description: A high-level summary or description of the terminology issue, and how to access it in the Postman app
+    description: 翻訳／用語問題の要約、説明、および Postman アプリケーションでのアクセス方法を入力してください。
   validations:
     required: true
 - type: input
   id: currentterminology
   attributes:
-    label: Current terminology
-    description: How is the terminology phrased in Postman now?
-    placeholder: ex. 新しいコレクション
+    # label: Current terminology
+    label: 現在の表記
+    # description: How is the terminology phrased in Postman now?
+    description: 日本語版 Postman での現表記を入力してください。
+    placeholder: 例：新しいコレクション
   validations:
     required: true
 - type: input
   id: proposedterminology
   attributes:
-    label: Proposed terminology
-    description: How do you propose that the terminology be phrased?
-    placeholder: ex. 新規コレクション
+    # label: Proposed terminology
+    label: 提案する表記
+    # description: How do you propose that the terminology be phrased?
+    description: 提案する用語表現を入力してください。
+    placeholder: 例：新規コレクション
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Screenshots or Videos
+    # label: Screenshots or Videos
+    label: スクリーンショット／動画
+    # description: | 
+    #       Please include screenshots or a short video showing where the badly translated wording appears in the Postman app
+    #   Ensure that the screenshots/videos show the full screen of the Postman app and do not contain any sensitive information such as API keys or Access Tokens.
     description: | 
-      Please include screenshots or a short video showing where the badly translated wording appears in the Postman app
-      Ensure that the screenshots/videos show the full screen of the Postman app and do not contain any sensitive information such as API keys or Access Tokens. 
+      日本語版 Postman アプリケーションの翻訳／用語問題 箇所が表示されたスクリーンショットか、短い動画を登録してください。
+      スクリーンショット／動画は、API キーやアクセス トークンなどの機密情報が含まれていないことを確認し、Postman アプリケーション画面全体をキャプチャーしてください。 
   validations:
     required: true
 - type: markdown
   attributes:
-    value: '> **Tip**: You can attach images and recordings to textareas by dragging in the files. More visual examples will help us to understand your concern.'
+    # value: '> **Tip**: You can attach images and recordings to textareas by dragging in the files. More visual examples will help us to understand your concern.'
+    value: '> **ヒント**: 画像や動画ファイルをテキストエリアにドラッグして、ファイルを添付できます。視覚的な例が多くあるほど、懸念箇所を理解しやすくなります。'
 - type: dropdown
   attributes:
-    label: Postman Platform
-    description: In which Postman platform do you see this issue.
+    # label: Postman Platform
+    label: Postman プラットフォーム
+    # description: In which Postman platform do you see this issue.
+    description: 問題がある Postman プラットフォームを選択してください。
+    # options:
+    #  - Postman App
+    #  - Postman Web
+    #  - Both
     options:
-      - Postman App
-      - Postman Web
-      - Both
+      - Postman デスクトップアプリ
+      - Postman ウェブアプリ
+      - 両方
+  validations:
+    required: true
+- type: input
+  attributes:
+    # label: Operating System
+    label: オペレーティング システム
+    # description: Which OS are you using?
+    description: 利用中の OS を入力してください。
+    placeholder: "Windows/macOS/Linux"
+  validations:
+    required: true
+- type: input
+  attributes:
+    # label: Postman Version
+    label: Postman バージョン
+    # description: Which version of the platform are you using? This can be found in 'General Settings > Settings > About'.
+    description: 利用中のプラットフォームのバージョンを入力してください。バージョンを確認するには、[⚙ 設定] > [設定] > [概要]をクリックします。
+    placeholder: "10.12.0"
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Additional comments or context?
+    # label: Additional comments or context?
+    label: その他コメントやコンテキスト
+    # description: |
+    # Please add any other comments or contextual information about the problem, that might be relevant and help explain the issue with the translation.
     description: |
-      Please add any other comments or contextual information about the problem, that might be relevant and help explain the issue with the translation.
+      翻訳問題の理解をより深めるために、適切なコメントやコンテキスト情報を入力してください。
   validations:
     required: false
 
