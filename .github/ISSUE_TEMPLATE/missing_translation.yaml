@@ -1,5 +1,5 @@
 # name: Missing translation
-name: 翻訳がありません
+name: 翻訳の問題
 # description: Report a missing or incomplete translation (i.e. English showing)
 description: 翻訳されていない場合や、不完全な翻訳を報告する（例：英語のままの場合など）
 # title: "A brief title for your issue"
@@ -77,7 +77,7 @@ body:
     # label: Postman Version
     label: Postman バージョン
     # description: Which version of the platform are you using? This can be found in 'General Settings > Settings > About'.
-    description: 利用中のプラットフォームのバージョンを入力してください。バージョンを確認するには、[⚙ 設定] > [設定] > [概要]をクリックします。
+    description: 利用しているプラットフォームのバージョンを入力してください。バージョン情報は、[⚙ 設定] > [設定] > [概要]で確認できます。
     placeholder: "10.12.0"
   validations:
     required: true
