@@ -8,7 +8,7 @@ body:
 - type: markdown
   attributes:
     # value: '> **Note**: This form is for reporting issues that only exist in the Japanese translation of Postman. Before reporting an issue here, you must confirm that the problem does not exist in Postman in English. For problems that also exist in English, please report it via the usual Postman support channels.'
-    value: '> **メモ**: このフォームは、日本語版 Postman で発生した問題を報告するためのものです。英語版 Postman 環境で問題が発生しない事を確認してから、問題を報告してください。問題が英語版でも発生する場合は、通常の Postman サポートチャンネルで報告してください。'
+    value: '> **メモ**: このフォームは、日本語版 Postman で発生した問題を報告するためのものです。英語版 Postman 環境で問題が発生しない事を確認してから、問題を報告してください。問題が英語版でも発生する場合は、通常の [Postman サポートチャンネル](https://support.postman.com/hc/en-us)で報告してください。'
 - type: textarea
   attributes:
     # label: Describe the Issue

@@ -1,5 +1,5 @@
 # name: Missing translation
-name: 翻訳の問題
+name: 翻訳が存在しない
 # description: Report a missing or incomplete translation (i.e. English showing)
 description: 翻訳されていない場合や、不完全な翻訳を報告する（例：英語のままの場合など）
 # title: "A brief title for your issue"
@@ -8,7 +8,7 @@ body:
 - type: markdown
   attributes:
     # value: '> **Note**: This form is for reporting missing or incomplete translations in the Japanese translation of Postman. For Postman functionality issues or problems that also exist in English, please report issues via the usual Postman support channels.'
-    value: '> **メモ**: このフォームは、日本語版 Postman で翻訳がされていない場合や、不完全な翻訳を報告するためのものです。英語版 Postman 環境でも発生する機能障害や問題については、通常の Postman サポートチャンネルで報告してください。'
+    value: '> **メモ**: このフォームは、日本語版 Postman で翻訳がされていない場合や、不完全な翻訳を報告するためのものです。英語版 Postman 環境でも発生する機能障害や問題については、通常の [Postman サポートチャンネル](https://support.postman.com/hc/en-us)で報告してください。'
 - type: textarea
   attributes:
     # label: Describe the Issue
@@ -20,7 +20,7 @@ body:
 - type: markdown
   attributes:
     # value: '> **Note**: Remember that only the "Collections", "Environments" and "History" components of the Postman app, as well as the Settings page are currently fully translated into Japanese. While Japanese translations may show in other areas of the product, they are still a work-in-progress. Also remember that any data user-generated data such as Collection names will only appear in the language that they were created in.'
-    value: '> **メモ**: 現時点では、Postman アプリケーションの[コレクション]、[環境]、[履歴]コンポーネント、および[設定]ページのみが完全に日本語訳されています。 その他のプロダクト エリアでも日本語訳が表示されることがありますが、まだ作業中です。また、”コレクションの名前” のようなユーザー指定のデータは、入力された言語でのみ表示されます。'
+    value: '> **メモ**: 現時点では、Postman アプリケーションの[ワークスペース]、[コレクション]、[環境]、[履歴]コンポーネント、および[設定]ページのみが完全に日本語訳されています。 その他のプロダクト エリアでも日本語訳が表示されることがありますが、まだ作業中です。また、”コレクションの名前” のようなユーザー指定のデータは、入力された言語でのみ表示されます。'
 - type: input
   id: currenttext
   attributes:
