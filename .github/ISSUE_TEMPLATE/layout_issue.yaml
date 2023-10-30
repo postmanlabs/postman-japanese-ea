@@ -4,6 +4,9 @@ name: レイアウト／機能の問題
 description: Postman ユーザー インターフェイス レイアウト、または日本語版機能の問題を報告する
 # title: "A brief title for your issue"
 title: "問題のタイトル"
+assignees:
+  - nagix
+  - yokawasa
 body:
 - type: markdown
   attributes:

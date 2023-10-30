@@ -4,6 +4,9 @@ name: 使用している用語の問題
 description: 日本語版 Postman アプリケーションの用語の問題を報告する。
 # title: "A brief title for your issue"
 title: "問題のタイトル"
+assignees:
+  - nagix
+  - yokawasa
 body:
 - type: markdown
   attributes:

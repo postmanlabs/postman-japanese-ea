@@ -4,6 +4,9 @@ name: 翻訳が存在しない
 description: 翻訳されていない場合や、不完全な翻訳を報告する（例：英語のままの場合など）
 # title: "A brief title for your issue"
 title: "問題のタイトル"
+assignees:
+  - nagix
+  - yokawasa
 body:
 - type: markdown
   attributes:
